@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/ui": "npm:@nuxt/ui-edge@latest",
+    "nuxt": "^3.9.1",
+    "vue": "^3.4.10",
+    "vue-router": "^4.2.5",
+    "@nuxtjs/tailwindcss": "npm:@nuxtjs/tailwindcss@nightly"
+  },
+  "dependencies": {
+    "@formkit/auto-animate": "^0.8.1",
+    "@nuxt/ui": "^2.12.0"
+  }
+  
+}
